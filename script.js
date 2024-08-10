@@ -14,7 +14,3 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     event.preventDefault();
   }
 });
-function scrollToProjects() {
-  const projectsSection = document.getElementById('contact');
-  projectsSection.scrollIntoView({ behavior: 'smooth' });
-}
